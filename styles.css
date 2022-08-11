@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
 }
 a {
     color: gray;
@@ -49,7 +50,7 @@ h1 {
     height: auto;
     background-color: rgba(0, 0, 0, 0.3);
     position: relative;
-    top: 25vh;
+    top: 20vh;
     gap: 1vw;
     padding: 15px 0;
     justify-content: center;
@@ -58,4 +59,16 @@ h1 {
 
 .github {
     height: 10vh;
+}
+
+.main-text {
+    padding-left: 15px;
+    padding-top: 80px;
+    width: 85%;
+    font-weight: 500;
+    font-size: large;
+}
+
+.main-text-child {
+    padding: 40px;
 }
