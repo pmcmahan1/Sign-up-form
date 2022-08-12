@@ -39,6 +39,13 @@ h1 {
     font-family: 'Maybe Coffee', sans-serif;
 
 }
+
+input:focus { 
+    outline: none !important;
+    border-color: #4B6F44;
+    box-shadow: 0 0 3px #4B6F44;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -111,6 +118,10 @@ h1 {
     text-transform: uppercase;
 }
 
+input.inputbox {
+    font-size: 16px;
+}
+
 .form-input {
     display: flex;
     flex-flow: row wrap;
@@ -124,8 +135,4 @@ h1 {
     align-items: center;
     padding-top: 30px;
     gap: 8px;
-}
-
-.alert {
-    color: red;
 }
