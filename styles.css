@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
 body {
     margin: 0;
     padding: 0;
@@ -20,7 +26,7 @@ h1 {
     flex-direction: column;
     background-image: url(background.jpg);
     background-size: cover;
-    width: 45%;
+    width: 42%;
     height: 100vh;
 }
 
@@ -29,7 +35,7 @@ h1 {
     text-align: center;
     left: 0;
     bottom: 0;
-    width: 45%;
+    width: 42%;
     font-size: 18px;
     color: gray;
     background-color: rgba(0, 0, 0, 0.3);
@@ -39,9 +45,9 @@ h1 {
 .right-side {
     display: flex;
     flex-direction: column;
-    width: 55%;
+    width: 58%;
     background-size: auto;
-
+    padding-left: 20px;
 }
 
 .logo {
@@ -71,4 +77,28 @@ h1 {
 
 .main-text-child {
     padding: 40px;
+}
+
+.input {
+    display: flex;
+    flex-flow: column wrap;
+    width: 40%;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    opacity: 80%;
+}
+
+.form-input {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    gap: 8px;
 }
